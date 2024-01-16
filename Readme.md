@@ -1,49 +1,63 @@
-Idea: Digital Art Gallery Showcase
+# Idea: Digital Art Gallery Showcase
 
-Implementation Methodologies:
+### HTML Homepage:
 
-Homepage:
+#### Header
 
-Use a vibrant and artistic color palette.
-Implement a header with the website name and navigation menu.
-Include an attractive hero section with a background image that represents digital art.
-Artwork Gallery Section:
+Used a vibrant and artistic color palette.
+Implemented a header with the website name and navigation menu.
 
-Create a table to showcase different digital art pieces.
-Use images to display each artwork.
-Hyperlink each image to a detailed page for that specific artwork.
-Contact Section:
+#### Sections:
 
-Use the tel attribute for providing contact information.
-Implement a contact form using HTML5 form controls.
-Include a 'Submit' button for users to send their inquiries.
-About Section:
+Homepage is divided into sections for beautification and better understanding. The Four sections are:  Gallery, About, Contact and Events
 
-Break the page into sections for a better visual appeal.
-Use the <summary> and <details> tags for a collapsible 'About Us' section.
-Provide a brief description of the website's purpose and the artists involved.
-Footer:
+#### 1. Gallery Section:
 
-Implement a footer with social media links for sharing the artworks.
-Include a 'mailto' link for feedback or collaboration opportunities.
-Add a favicon representing the essence of digital art.
-Readme File:
+Created a set of scrollable cards to showcase different digital art pieces. Used images to display each artwork. Hyperlinked each image to a detailed view for that specific artwork.
 
-Create a readme.md file.
-List all HTML and HTML5 tags used in your project.
-Provide short descriptions and use cases for each tag.
-Include instructions for running and contributing to the project.
-CSS Styling:
+#### 2. About Section:
 
-Use an external CSS file for styling.
-Apply appropriate colors to enhance the visual appeal.
-Use CSS to create a responsive layout for different screen sizes.
-Multimedia:
+Used the summary and details tags for a collapsible 'About Us' section. Provided a brief description of the website's purpose and the artist involved. Also included a video and audio describing the organisation better 
 
-Add an audio background with a calming music loop.
-Include a video section showcasing the process of creating digital art.
-Menu:
+#### 3. Contact Section:
 
-Implement a navigation menu for easy access to different sections.
-Use CSS to style the menu for a modern and sleek appearance.
-This creative digital art gallery website will not only showcase various artworks but also provide a visually appealing and interactive experience for users. Make sure to test your website across different browsers and devices for optimal performance.
+Used the tel attribute and mailto attribute for providing contact information. Implemented a query contact form using HTML5 form controls. Included a 'Submit' button for users to send their inquiries.
+Contact section also contains a table with visiting hours for the store. the header is highlighted with the color in our selected palette.
+
+#### 4. Upcoming Events Section:
+Added a table including upcoming events where the gallery owner will be present with her artwork and other products. 
+
+#### Footer:
+
+Implemented a footer with social media links for sharing the artworks.
+
+## CSS Styling:
+
+Used an external CSS file for styling.
+Applied appropriate color palette to enhance the visual appeal. Used CSS to create a responsive layout for different screen sizes.
+
+### Tags Used and Sections they are used in :
+(Tags below are mentioned in order of their appearance in the code.)
+1. header ---- body
+2. menu ---- body -> header
+3. ul, li ---- body -> header -> menu
+4. a (Hyperlink)---- body -> header -> menu -> ul ->li, .artwork-card, about(tel,mailto), footer (social media links)
+5. main ---- body
+6. section ---- body -> main
+7. img ---- .artwork-card, social media icons
+8. details, summary, mark ---- section #about
+9. video ---- section #about
+10. audio ---- section #about
+11. tel ---- section #contact
+12. mailto ---- section #contact
+13. form ---- section #contact
+14. table ---- section #visiting-hrs, #upcoming-events
+15. footer ---- body
+16. favicon ---- head
+
+#### References
+
+1. HTML Tutorial <https://www.w3schools.com/html/default.asp>
+2. CSS Tutorial <https://www.w3schools.com/css/default.asp>
+3. MDN web docs <https://developer.mozilla.org/en-US/docs/Web/HTML>
+4. Make a Readme <https://www.makeareadme.com/>
