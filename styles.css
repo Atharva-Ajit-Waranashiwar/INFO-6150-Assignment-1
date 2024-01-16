@@ -1,0 +1,220 @@
+header {
+    background-color: #FF8C66; /* Light Coral */
+    color: #484848; /* Dark Gray */
+    padding: 15px;
+    text-align: center;
+}
+header h1{
+    font-family: cursive;
+    font-size: xx-large;
+}
+header a,footer a{
+    color: #484848;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFDCB0; /* Peach */
+    color: #484848; /* Dark Gray */
+}
+
+body h2{
+    text-align: center;
+}
+#contact p, h4{
+    text-align: center;
+}
+#contact{
+    width: fit-content;
+}
+#contact-main{
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+}
+#visiting-hrs{
+    text-align: center;
+
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+table tr,td,th{
+    border: #333 solid 2px;
+    padding:10px
+}
+main{
+    width: 80%;
+    margin:auto;
+}
+menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#about .video{
+    width:40%;
+    margin:auto;
+}
+video{
+    height:400px;
+}
+menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: #FF6060; /* Light Coral */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a:hover {
+    color: #0022ff; /* Salmon Pink */
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+form {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #FF8C66; /* Light Coral */
+    color: #484848; /* Dark Gray */
+    text-align: center;
+    padding: 10px;
+}
+summary{
+    font-size: x-large;
+}
+.image-name{
+    padding:10px;
+}
+.image-description{
+    padding:10px;
+}
+
+.image-name, .image-description{
+    color: #484848; /* Dark Gray */
+}
+
+.icon{
+    display: flex;
+    float: left ;
+}
+.icon img{
+    width: 100px;
+    height:auto;
+}
+
+.artwork-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.artwork-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #FF6060; /* Salmon Pink */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    border: #333;
+    border-radius: 20px;
+}
+
+.artwork-card img {
+    max-width: 365px;
+    max-height: 300px;
+    padding: 20px;
+}
+
+/* For Webkit (Chrome, Safari) */
+.artwork-container::-webkit-scrollbar {
+    height: 12px;
+}
+
+.artwork-container::-webkit-scrollbar-thumb {
+    background-color: #FF6060; /* Salmon Pink */
+    border-radius: 6px;
+}
+
+.artwork-container::-webkit-scrollbar-track {
+    background-color: #FFDCB0; /* Peach */
+}
+
+/* For Firefox */
+.artwork-container {
+    scrollbar-color: #FF6060 #FFDCB0; /* Salmon Pink thumb and Peach track */
+}
+
+/* For IE/Edge */
+.artwork-container {
+    scrollbar-face-color: #FF6060; /* Salmon Pink */
+    scrollbar-shadow-color: #FFDCB0; /* Peach */
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+#about{
+    text-align: justify;
+    padding:50px;
+}
+#contact,#visiting-hrs{
+    margin-right:20px;
+}
+
+.form {
+    max-width: 400px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #FF6060;
+}
+
+.form-field button {
+    background-color: #FF8C66; /* Light Coral */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-field button:hover {
+    background-color: #FF6060; /* Salmon Pink */
+}
